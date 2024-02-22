@@ -1,0 +1,21 @@
+$gap: 2rem;
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: $gap;
+
+    .col-1-3 {
+        width: calc(33.33333333333% - (2*$gap));
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        .col-1-3 {
+            width: 100%;
+
+        }
+    }
+}
