@@ -3,25 +3,29 @@ nav{
     display: flex;
     align-items: center;
     height: 100px;
-}
-nav ul{
-    flex: 1;
-    text-align: right;
-}
-nav ul li{
-    display: inline-block;
-    color: #ffffff;
-    list-style: none;
-    margin: 0 10px;
-    padding:20px;
-    &:hover{
-        color: #0D9276;
-        cursor: pointer;
+    .navbar-container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul{
+            li{
+                display: inline-block;
+                color: #ffffff;
+                list-style: none;
+                margin: 0 10px;
+                padding:20px;
+                &:hover{
+                    color: #0D9276;
+                    cursor: pointer;
+                }
+            }
+        }
+        img{
+            width: 60px;
+            cursor: pointer;
+            
+        }
     }
+        
 }
-nav img{
-    width: 60px;
-    cursor: pointer;
-    margin-left: 30px;
-}
-
