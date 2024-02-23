@@ -1,21 +1,15 @@
 .card-component{ 
-    margin: 40px;
     padding: 20px;   
     background-color: $light-beige;;
     text-align: left;
-    width: 400px;
+    max-width: 100%;
     border-radius: 15px;
-}
-.card-component img{
-    width: 400px;
-    border-radius: 15px;
-}
-.card-component button{
-    text-align: center;
-    color: white;
-    padding: 10px 173px;
-    background-color: $dark-green;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
+    img{
+       max-width: 100%;
+        border-radius: 15px;
+    }
+    button{
+        width: 100%;
+    }
+    
 }
